@@ -11,11 +11,43 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+/*html {*/
+/*  color: #222;*/
+/*  font-size: 1em;*/
+/*  line-height: 1.4;*/
+/*}*/
+
+body {
+  margin: 0;
+  font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.navbar {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left svg {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.navbar-left div {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-left > * {
+  padding: 10px;
+}
+
+
+
 
 /*
  * Remove text-shadow in selection highlight:
